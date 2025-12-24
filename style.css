@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #0b1020, #1a1333);
+    color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: rgba(10, 15, 40, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #7b7bff;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #cfd3ff;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+.nav-btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(90deg, #6a5cff, #9b5cff);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #7b7bff;
+}
+
+.hero p {
+    margin: 20px 0 30px;
+    color: #cfd3ff;
+    line-height: 1.6;
+}
+
+.primary-btn {
+    padding: 14px 30px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(90deg, #6a5cff, #9b5cff);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* SECTIONS */
+section {
+    padding: 80px 8%;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* ABOUT */
+.about p {
+    max-width: 700px;
+    color: #cfd3ff;
+    line-height: 1.7;
+}
+
+/* SKILLS */
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* CONTACT */
+.contact p {
+    margin: 10px 0;
+    color: #cfd3ff;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: rgba(10, 15, 40, 0.9);
+    color: #aab0ff;
+    font-size: 14px;
+}
